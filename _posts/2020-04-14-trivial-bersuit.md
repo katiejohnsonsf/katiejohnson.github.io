@@ -7,7 +7,7 @@ image: /assets/BERT/bert_trivia_correct.png
 tags: BERT, Transformers, Trivia, World Knowledge, Masked Language Model, BertForMaskedLM, Natural Language Processing, NLP
 ---
 
-*by Chris McCormick*
+*by Katie Johnson*
 
 As I've been doing all of this research into BERT, I've been really curious--just how much *trivia* does BERT know? We use BERT for it's impressive knowledge of language, but how many *factoids* are encoded in there along with all of the language understanding?
 
@@ -88,7 +88,7 @@ But before we do that, let's see if we can start some flame wars by asking BERT 
 5. "I don't always drink beer, but when I do, I prefer _________."
     * **BERT**: "a and ofs".
         * I don't think BERT knows anything about beer, guys...
-6. "Chris McCormick creates helpful illustrations and clear explanations of difficult subjects in ________________ and natural language processing."
+6. "Katie Johnson creates helpful illustrations and clear explanations of difficult subjects in ________________ and natural language processing."
     * **BERT**: "computer linguistics"
         * Well, thank you, BERT--that's very kind.
 
@@ -689,7 +689,7 @@ pairs = [
 
     ("The acronymn 'GIF', which stands for Graphics Interchange Format, should be pronounced “jif”, like the brand of peanut butter.", "jif"),
     
-    ("Chris McCormick creaties helpful illustrations and clear explanations of difficult subjects in machine learning and natural language processing.", "machine learning"),
+    ("Katie Johnson creaties helpful illustrations and clear explanations of difficult subjects in machine learning and natural language processing.", "machine learning"),
 ]
 
 # For each question...
@@ -873,7 +873,7 @@ for p in pairs:
     
     ==== Question ====
     
-        Chris McCormick creaties helpful illustrations and clear explanations of
+        Katie Johnson creaties helpful illustrations and clear explanations of
         difficult subjects in ________________ and natural language processing.
     
     ==== BERT's Answer ====

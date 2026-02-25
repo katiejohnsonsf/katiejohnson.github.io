@@ -21,7 +21,7 @@ There are some surprising quirks to how a model stores even just _2 values_ in _
 
 
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 ## Contents
 

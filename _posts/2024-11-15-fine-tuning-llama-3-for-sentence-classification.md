@@ -29,7 +29,7 @@ One of my favorite aspects of the original Notebook is that it implements the tr
 
 We'll still use HuggingFace for the model implementation and weights, and for tokenizing.
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 
 <a href="https://colab.research.google.com/github/chrisjmccormick/llm-tuning-examples/blob/main/sentence-classification/Fine-Tuning%20Llama%203%20for%20Sentence%20Classification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>

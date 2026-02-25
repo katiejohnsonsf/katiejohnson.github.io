@@ -26,7 +26,7 @@ For something like text classification, you definitely want to fine-tune BERT on
 * TOC
 {:toc}
 
-*by Chris McCormick*
+*by Katie Johnson*
 
 # Part 1: How BERT is applied to Question Answering
 

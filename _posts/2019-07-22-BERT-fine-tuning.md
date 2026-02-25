@@ -7,7 +7,7 @@ image: /assets/BERTFineTuning/bert_cocky.png
 tags: Machine Learning, BERT, Word Embeddings, WordPiece, Tokenization, Natural Language Processing, NLP, Fine-Tuning, Hugging Face, PyTorch, Sentence Classification, Transformers, Transfer Learning
 ---
 
-By Chris McCormick and Nick Ryan
+By Katie Johnson and Nick Ryan
 
 *Revised on 3/20/20 - Switched to `tokenizer.encode_plus` and added validation loss. See Revision History at the end for details.*
 
@@ -1738,4 +1738,4 @@ optimizer_grouped_parameters = [
 * The MCC score seems to vary substantially across different runs. It would be interesting to run this example a number of times and show the variance.
 
 ### Cite
-Chris McCormick and Nick Ryan. (2019, July 22). *BERT Fine-Tuning Tutorial with PyTorch*. Retrieved from http://www.mccormickml.com
+Katie Johnson and Nick Ryan. (2019, July 22). *BERT Fine-Tuning Tutorial with PyTorch*. Retrieved from http://www.mccormickml.com

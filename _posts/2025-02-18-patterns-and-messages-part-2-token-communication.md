@@ -16,7 +16,7 @@ Specifically:
 1. The $W^V_i, W^O_i$ matrix pairs can be viewed as low rank decompositions of a larger matrix $W^{VO}_i$, and I'll motivate my proposed naming of "messages".
 2. The $W^Q_i, W^K_i$ matrix pairs can be viewed as low rank decompositions of a larger matrix, $W^{QK}_i$, and I'll motivate my proposed naming of "patterns".
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 ## Contents
 

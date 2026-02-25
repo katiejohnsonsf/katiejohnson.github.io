@@ -22,7 +22,7 @@ Some notes: on the illustration:
 * I've labeled the output neurons as "neural memories" following the paper _Transformer Feed-Forward Layers Are Key-Value Memories_ ([arXiv](https://arxiv.org/abs/2012.14913 )).
 
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 
 

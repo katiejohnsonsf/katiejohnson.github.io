@@ -7,7 +7,7 @@ image: /assets/XLNetFineTuning/xlnet-fig-1.png
 tags: XLNet, NLP, natural language processing, transfer learning, classification, machine learning
 ---
 
-By Chris McCormick and Nick Ryan
+By Katie Johnson and Nick Ryan
 
 In this tutorial, I'll show you how to finetune the pretrained XLNet model with the huggingface PyTorch library to quickly produce a classifier for text classification.
 

@@ -13,7 +13,7 @@ I want to clarify up front that none of the "rearranging" that I do in this post
 
 Let's see what happens when we prioritize conceptual clarity over GPU efficiency!
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 
 ## Contents

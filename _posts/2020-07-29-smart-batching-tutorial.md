@@ -17,7 +17,7 @@ I learned this technique from Michaël Benesty in his excellent blog post [here]
 
 This blog post is also available as a Colab Notebook [here](https://colab.research.google.com/drive/1Er23iD96x_SzmRG8md1kVggbmz0su_Q5). I've also published a short YouTube walkthrough of this material [here](https://youtu.be/ynOZUNnbEWU).
 
-*by Chris McCormick*
+*by Katie Johnson*
 
 # Contents
  

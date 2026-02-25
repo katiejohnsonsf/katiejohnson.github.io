@@ -11,7 +11,7 @@ Up to this point, our tutorials have focused almost exclusively on NLP applicati
 
 For this reason, we're going to look at an interesting category of BERT-like models referred to as **Multilingual Models**, which help extend the power of large BERT-like models to languages beyond English.
 
-by Chris McCormick and Nick Ryan
+by Katie Johnson and Nick Ryan
 
 # Contents
  

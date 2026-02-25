@@ -27,7 +27,7 @@ Finally, just for reference, I've included all of the code for generating my plo
 
 This blog post is also available as a Colab Notebook [here](https://colab.research.google.com/drive/1Gzm0mBTWQLtI5q8azxwudmZGBWyiq6II). Parts 1 and 2 are just text and figures, though, so the blog post maybe the nicer format!
 
-by Chris McCormick
+by Katie Johnson
 
 # Contents
  

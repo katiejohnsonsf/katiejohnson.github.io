@@ -22,7 +22,7 @@ This technique can also be used on the word vectors in-between layers (the "resi
 I studied GPT-2 "small" (12 layers, 12 heads) in this post.
 
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 
 

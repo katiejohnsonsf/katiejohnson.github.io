@@ -17,7 +17,7 @@ The content is identical in both, but:
 
 *Update 5/27/20 - I've updated this post to use the new `transformers` library  from huggingface in place of the old `pytorch-pretrained-bert` library. You can still find the old post / Notebook [here](https://colab.research.google.com/drive/1ZQvuAVwA3IjybezQOXnrXMGAnMyZRuPU) if you need it.* 
 
-By Chris McCormick and Nick Ryan
+By Katie Johnson and Nick Ryan
 
 # Contents
 
@@ -706,4 +706,4 @@ It is worth noting that word-level **similarity comparisons** are not appropriat
 You can use the code in this notebook as the foundation of your own application to extract BERT features from text. However, official [tensorflow](https://github.com/google-research/bert/blob/master/extract_features.py) and well-regarded [pytorch](https://github.com/huggingface/pytorch-pretrained-BERT/blob/master/examples/extract_features.py) implementations already exist that do this for you.  Additionally, [bert-as-a-service](https://github.com/hanxiao/bert-as-service) is an excellent tool designed specifically for running this task with high performance, and is the one I would recommend for production applications. The author has taken great care in the tool's implementation and provides excellent documentation (some of which was used to help create this tutorial) to help users understand the more nuanced details the user faces, like resource management and pooling strategy.
 
 ### Cite
-Chris McCormick and Nick Ryan. (2019, May 14). *BERT Word Embeddings Tutorial*. Retrieved from http://www.mccormickml.com
+Katie Johnson and Nick Ryan. (2019, May 14). *BERT Word Embeddings Tutorial*. Retrieved from http://www.mccormickml.com

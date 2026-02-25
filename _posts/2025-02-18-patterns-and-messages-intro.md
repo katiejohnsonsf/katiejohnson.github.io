@@ -15,7 +15,7 @@ We'll reformulate the equations in a way that is less efficient, but mathematica
 
 
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 ## Contents
 

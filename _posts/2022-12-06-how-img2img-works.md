@@ -21,7 +21,7 @@ In this tutorial I’ll cover:
 1. A few ways this technique can be useful in practice
 2. What’s actually happening inside the model when you supply an input image.
 
-By Chris McCormick
+By Katie Johnson
 
 # Contents
 

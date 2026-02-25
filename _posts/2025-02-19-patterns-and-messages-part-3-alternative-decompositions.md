@@ -17,7 +17,7 @@ We know we have (at least) three issues to resolve:
 
 Our standard query-key, value-output decomposition is one approach for addressing all three, but there might be alternatives.
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 
 ## Contents

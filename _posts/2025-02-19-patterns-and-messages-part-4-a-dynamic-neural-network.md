@@ -19,7 +19,7 @@ For a given head, the cached key vectors are the input neurons, and the cached v
 
 It's a little cleaner, though, when you use the pattern and message vectors, as I'll show here.
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 ## Contents
 

@@ -25,7 +25,7 @@ In this tutorial, we will:
 
 Here is the [Colab Notebook](https://colab.research.google.com/drive/19loLGUDjxGKy4ulZJ1m3hALq2ozNyEGe) version of this post (it's identical to the blog post).
 
-*by Chris McCormick and Nick Ryan*
+*by Katie Johnson and Nick Ryan*
 
 # Contents
  

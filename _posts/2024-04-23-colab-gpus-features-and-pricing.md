@@ -12,7 +12,7 @@ Recently I've been researching the topic of fine-tuning Large Language Models (L
 
 I just saw the Nvidia "L4" added as _yet another_ option in the list of GPUs, so I decided it was time to assemble a table to make better sense of the choices.
 
-By Chris McCormick
+By Katie Johnson
 
 Part of my [llm-tuning-examples](https://github.com/chrisjmccormick/llm-tuning-examples/) project.
 

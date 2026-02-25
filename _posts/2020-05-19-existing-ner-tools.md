@@ -17,7 +17,7 @@ In this post, we will:
 
 You can also find the Colab Notebook version of this post [here](https://colab.research.google.com/drive/16mNNJRLs0FEHEA8PhQl4IzeK9GvJ27OJ).
 
-*by Nick Ryan and Chris McCormick*
+*by Nick Ryan and Katie Johnson*
 
 ## Contents
  

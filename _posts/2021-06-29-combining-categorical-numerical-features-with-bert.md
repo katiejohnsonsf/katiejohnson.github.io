@@ -30,7 +30,7 @@ In our weekly discussion group, I talked through this Notebook and we also met w
 
 You can find the Colab Notebook version of this post [here](https://colab.research.google.com/drive/1YRHK4HO8RktGzlYmGjBo056kzVD4_j9o).
 
-By Chris McCormick
+By Katie Johnson
 
 # Contents
 

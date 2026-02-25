@@ -13,7 +13,7 @@ I went through the original in one of my "Weekly Walkthrough" sessions, learned 
 
 The code in the notebook remains largely unchanged, just with more comments and explanation.
 
-_by Chris McCormick_
+_by Katie Johnson_
 
 <a href='https://colab.research.google.com/github/chrisjmccormick/llm-tuning-examples/blob/main/continuing-pre-training/Continuing%20Pre-Training%20on%20Raw%20Text.ipynb' target='_parent'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'/></a>
 

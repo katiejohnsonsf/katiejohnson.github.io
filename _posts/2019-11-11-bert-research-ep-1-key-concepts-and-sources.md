@@ -38,7 +38,7 @@ All 8 episodes of the research series are also still available on YouTube <a hre
 * TOC
 {:toc}
 
-*By Chris McCormick*
+*By Katie Johnson*
 
 ## 1.1. Objectives for the BERT Tutorial
 

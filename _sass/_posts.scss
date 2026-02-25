@@ -32,6 +32,29 @@
 }
 
 
+// Recent work
+.recent-work {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #303030;
+  }
+}
+
+.recent-work-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: .5rem;
+  }
+}
+
 // Related posts
 .related {
   padding-top: 2rem;

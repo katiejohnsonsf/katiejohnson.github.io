@@ -9,7 +9,7 @@ tags: 4-bit quantization, QLoRA, Neural network compression, Fine-tuning, Low-ra
 
 _An in-depth tutorial on the algorithm and paper, including a pseudo-implementation in Python._
 
-by Chris McCormick
+by Katie Johnson
 
 ## S1. Introduction
 
