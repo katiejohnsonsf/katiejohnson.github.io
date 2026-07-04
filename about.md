@@ -1,27 +1,38 @@
 ---
-layout: page
+layout: about
 title: About
-permalink: /about/
+permalink: /
 ---
 
-![Profile picture][profile_pic]
+### How I Approach the Work
 
-### Formal Bio
+**I start from a theory of change before I build.** Before writing code, I want to understand: what lever does this touch? Who are the stakeholders? What does a good ending look like? This isn't hesitation — it's systems thinking applied before design.
 
-Chris is an author of **eBooks**, tutorial **videos**, and **example code** on a variety of Machine Learning topics--particularly on challenging subjects in **Natural Language Processing**. He’s best known for his **word2vec** blog posts  (recommended reading for Stanford's NLP class), **BERT** architecture YouTube series, and example code for a variety of BERT applications.  
+**I hold my expertise lightly and lead with learning.** I don't assume I know everything, and I ask collaborators to help shape what gets built. I frame my technical contributions — data, AI, UX — as tools in service of a vision others help define, not solutions I impose.
 
-Chris earned his B.S. from **Stanford** in 2006 as a **software engineer**, and has been working in the areas of computer vision, machine learning, and NLP since 2012.
+**I care about facilitation as a discipline equal to engineering.** The Informed Seattle work isn't just an LLM pipeline — it's designed to enable conversation, weave stories together, and create feedback loops between citizens and government. Facilitation is a design value, not an add-on.
 
-His writing and speaking styles are characterized by levity and positioning himself as a **fellow learner** rather than an authority. Chris loves to create the tutorials that he wishes he could have read--with an emphasis on thoroughness, while still being **easy-to-follow**. You’ll often find his simple and colorful **illustrations** reused around the web. His example code follows the same principles--working code is always a great start, but he further prioritizes explanation and readability, with thoughtful **organization** and detailed **comments** at every step.
+**I'm drawn to work that is legible at scale but meaningful at the individual level.** The city council tool is meant to show aggregate neighborhood sentiment on a map *and* let one person say "here's how this ordinance affects my family." I want both layers.
 
-### My Story
+---
 
-It was my childhood dream to work on Artifical Intelligence. When I went to Stanford in 2002, I wrote it off as something that was purely academic research, and went down the more practical path of software engineering. Ten years later (in 2012) I made a totally unexpected career change into Computer Vision and Machine Learning, just as Deep Learning was beginning to take off! I'm so grateful that AI has become such an important and practical topic, and that I've been able to work in that space ever since!
+### My Relationship to Impact
 
-Another passion of mine is to gather the insight and knowledge held by one group of people (e.g., the academic Machine Learning community), and to translate it and make it accessible to another group of people that needs it (e.g., software engineers with no ML background). The sudden importance of AI to technology has created exactly that need, and I feel so fortunate to have been positioned with the passion, skills, and opportunity to help fill that role for our engineering community.
+I want my work to touch a lot of people, but through systemic change — not through scale for its own sake. I'm interested in changing the conditions that allow people to participate, not just reaching a large audience. There's a through-line in everything I do: who gets access, whose voice is heard, what infrastructure makes participation possible.
 
-### My Content
+I'm also honest with myself that tools don't stand alone. The tool won't achieve its goals without the human and organizational context around it. That keeps me from over-indexing on the artifact I'm building.
 
-* In addition to my [YouTube channel](https://www.youtube.com/channel/UCoRX98PLOsaN8PtekB9kWrw/) and this blog, I run a membership site at [ChrisMcCormick.AI](https://www.chrismccormick.ai/membership?utm_source=blog&utm_medium=link&utm_campaign=membership&utm_content=about). 
+---
 
-[profile_pic]: http://www.mccormickml.com/assets/2021_profile_240_x_300px.jpg
+### How I Collaborate
+
+I work best when there's genuine co-creation — I bring a draft and invite others to reshape it. I'm energized by thought leadership that operates from multiple angles at once, and I'm drawn to people who can contribute expertise I don't have: policy, demography, community organizing, evaluation research.
+
+I notice when I'm doing the "bridging" work — translating between people, domains, or emotional registers — and I'm learning to make that a conscious choice rather than a reflex.
+
+---
+
+### Get in Touch
+
+- GitHub: [katiejohnsonsf](https://github.com/katiejohnsonsf)
+- Email: [thisiskatiejohnson@proton.me](mailto:thisiskatiejohnson@proton.me)

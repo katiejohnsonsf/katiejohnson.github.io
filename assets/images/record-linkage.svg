@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="#1a1825"/>
+  <!-- Two institution circles -->
+  <circle cx="130" cy="120" r="75" fill="#1e1a30" stroke="#4a3a7a" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="270" cy="120" r="75" fill="#1a2e30" stroke="#3a6a6a" stroke-width="1.5" opacity="0.9"/>
+  <!-- Overlap zone -->
+  <path d="M 190 55 Q 230 80 230 120 Q 230 160 190 185 Q 150 160 150 120 Q 150 80 190 55 Z" fill="#2a3045" opacity="0.6"/>
+  <!-- Lock icon in overlap -->
+  <rect x="182" y="108" width="16" height="14" rx="2" fill="#e07b54"/>
+  <path d="M 185 108 Q 185 100 190 100 Q 195 100 195 108" fill="none" stroke="#e07b54" stroke-width="2"/>
+  <circle cx="190" cy="115" r="2" fill="#1a1825"/>
+  <!-- Labels -->
+  <text x="100" y="90" text-anchor="middle" font-family="monospace" font-size="9" fill="#8a7acc">CENSUS</text>
+  <text x="100" y="102" text-anchor="middle" font-family="monospace" font-size="9" fill="#8a7acc">Title 13</text>
+  <text x="100" y="140" text-anchor="middle" font-family="monospace" font-size="8" fill="#6a5aaa">ACS microdata</text>
+  <text x="100" y="152" text-anchor="middle" font-family="monospace" font-size="8" fill="#6a5aaa">survey records</text>
+  <text x="300" y="90" text-anchor="middle" font-family="monospace" font-size="9" fill="#7aaabb">EHR</text>
+  <text x="300" y="102" text-anchor="middle" font-family="monospace" font-size="9" fill="#7aaabb">HIPAA</text>
+  <text x="300" y="140" text-anchor="middle" font-family="monospace" font-size="8" fill="#5a9aaa">patient records</text>
+  <text x="300" y="152" text-anchor="middle" font-family="monospace" font-size="8" fill="#5a9aaa">CAPriCORN</text>
+  <!-- SMPC label -->
+  <text x="190" y="195" text-anchor="middle" font-family="monospace" font-size="8" fill="#e07b54">SMPC</text>
+  <!-- Deterministic match indicator -->
+  <text x="20" y="230" font-family="monospace" font-size="8" fill="#5a4a8a">MATCH ✓</text>
+  <text x="80" y="230" font-family="monospace" font-size="8" fill="#8a6a5a">POSSIBLE ×</text>
+  <text x="170" y="230" font-family="monospace" font-size="8" fill="#aaa">→ deterministic only</text>
+  <text x="20" y="248" font-family="monospace" font-size="9" fill="#3a3060">VaultDB · Linkia · Title 13 + HIPAA</text>
+</svg>

@@ -1,73 +1,39 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Work
+permalink: /work/
 ---
 
-<div class="recent-work">
-  <h2>Recent Work</h2>
-  <ul class="recent-work-list">
-    <li>
-      <strong>City Council Actions Plain Text Translator</strong>
-      &mdash;
-      <a href="#">Article</a> &middot; <a href="#">GitHub</a>
-    </li>
-    <li>
-      <strong>Geo Temporal Wealth Estimation</strong>
-      &mdash;
-      <a href="#">Article</a> &middot; <a href="#">GitHub</a>
-    </li>
-    <li>
-      <strong>Federal AI Toolkit</strong>
-      &mdash;
-      <a href="#">Article</a> &middot; <a href="#">GitHub</a>
-    </li>
-  </ul>
+<div class="work-current">
+  <h3>What I'm Working On</h3>
+  <p>I'm a developer at <a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/">Informed Seattle</a> — a proof of concept for information infrastructure that translates Seattle City Council legislation into accessible weekly summaries. The application crawls Seattle's Legistar legislative database, runs AI-generated summaries through a chunked LLM pipeline, and deploys structured plain-language bill summaries via GitHub Pages. I'm a former Emerging Technology Fellow at the U.S. Census Bureau's xD cohort, where I collaborated with international partners on secure multiparty computation and AI governance frameworks for the federal data science lifecycle.</p>
+  <p>My previous work includes ML engineering at Mirror Labs (NLP-to-music generation pipelines), data analysis at Recurve (energy efficiency data products for the California PUC), and UX design at Accela (gov tech for permitting and licensing). I hold a Certificate in Data Science from Galvanize and a B.A. in Environmental Science from Mills College.</p>
 </div>
 
-<div class="posts">
-  
-  {% for post in paginator.posts %}
-  <article class="post">
-    <!-- Post title -->
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    
-    <!-- Date of the post -->
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    
-    <!-- Post image -->
-    {% if post.image %}
-    <img class="post-thumbnail" src="{{ post.image }}" />
-    {% endif %}
-    
-    <!-- Show an excerpt from the article -->
-    <div class="excerpt-fadeout">
-      {{ post.excerpt }}
+<div class="work-current">
+  <h3>Recent Projects</h3>
+</div>
+
+<div class="work-list">
+
+  {% for post in site.posts %}
+  <div class="work-entry">
+    <div class="work-left">
+      <span class="work-date">{{ post.date | date: "%d %b %Y" }}</span>
+      {% if post.thumbnail or post.image %}
+      <div class="work-image">
+        <img src="{{ post.thumbnail | default: post.image }}" alt="{{ post.title }}" />
+      </div>
+      {% endif %}
     </div>
-    
-    <!-- Comment count -->
-    <!-- <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a> -->
-    
-  </article>
+    <div class="work-content">
+      <h2 class="work-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.subtitle %}<p class="work-subtitle">{{ post.subtitle }}</p>{% endif %}
+      <p class="work-description">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    </div>
+  </div>
   {% endfor %}
-  
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
-
-<!-- Code for comment counts -->
-<script id="dsq-count-scr" src="//mccormickml.disqus.com/count.js" async></script>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- Dark hero section -->
+    <div class="home-hero">
+      <div class="home-hero-inner">
+
+        <nav class="hero-nav">
+          <a href="{{ site.baseurl }}/" class="hero-wordmark">Data &amp; Story</a>
+          <ul class="hero-nav-links">
+            <li><a href="{{ site.baseurl }}/">About</a></li>
+            <li><a href="{{ site.baseurl }}/work/" class="hero-nav-current">Work</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="home-container">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer home-footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="#1a1a22"/>
+  <!-- Data lifecycle pipeline stages -->
+  <defs>
+    <marker id="pa" markerWidth="5" markerHeight="5" refX="3" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#4a5a7a"/>
+    </marker>
+  </defs>
+  <!-- 5 stage blocks across -->
+  <rect x="15" y="70" width="60" height="120" rx="3" fill="#1e2030" stroke="#3a4a6a" stroke-width="1.5"/>
+  <text x="45" y="107" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">PRODUCE</text>
+  <text x="45" y="118" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">RAW</text>
+  <text x="45" y="129" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">DATA</text>
+  <circle cx="45" cy="152" r="8" fill="#c0392b" opacity="0.8"/>
+  <text x="45" y="156" text-anchor="middle" font-family="monospace" font-size="8" fill="white">!</text>
+
+  <line x1="75" y1="130" x2="85" y2="130" stroke="#4a5a7a" stroke-width="1.5" marker-end="url(#pa)"/>
+
+  <rect x="85" y="70" width="60" height="120" rx="3" fill="#1e2030" stroke="#3a4a6a" stroke-width="1.5"/>
+  <text x="115" y="107" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">PROCESS</text>
+  <circle cx="115" cy="152" r="8" fill="#e07b54" opacity="0.8"/>
+  <text x="115" y="156" text-anchor="middle" font-family="monospace" font-size="8" fill="white">!</text>
+
+  <line x1="145" y1="130" x2="155" y2="130" stroke="#4a5a7a" stroke-width="1.5" marker-end="url(#pa)"/>
+
+  <rect x="155" y="70" width="60" height="120" rx="3" fill="#1e2030" stroke="#3a4a6a" stroke-width="1.5"/>
+  <text x="185" y="100" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">ORDER</text>
+  <text x="185" y="111" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">TO REPR.</text>
+  <text x="185" y="122" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">WORLD</text>
+  <circle cx="185" cy="152" r="8" fill="#c0392b" opacity="0.9"/>
+  <text x="185" y="156" text-anchor="middle" font-family="monospace" font-size="8" fill="white">!</text>
+
+  <line x1="215" y1="130" x2="225" y2="130" stroke="#4a5a7a" stroke-width="1.5" marker-end="url(#pa)"/>
+
+  <rect x="225" y="70" width="60" height="120" rx="3" fill="#1e2030" stroke="#3a4a6a" stroke-width="1.5"/>
+  <text x="255" y="107" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">MODELS</text>
+  <circle cx="255" cy="152" r="8" fill="#e07b54" opacity="0.8"/>
+  <text x="255" y="156" text-anchor="middle" font-family="monospace" font-size="8" fill="white">!</text>
+
+  <line x1="285" y1="130" x2="295" y2="130" stroke="#4a5a7a" stroke-width="1.5" marker-end="url(#pa)"/>
+
+  <rect x="295" y="70" width="90" height="120" rx="3" fill="#1e2030" stroke="#3a4a6a" stroke-width="1.5"/>
+  <text x="340" y="100" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">INTERACT</text>
+  <text x="340" y="111" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">WITH</text>
+  <text x="340" y="122" text-anchor="middle" font-family="monospace" font-size="7" fill="#6a80bb">WORLD</text>
+  <circle cx="340" cy="152" r="8" fill="#d4a843" opacity="0.8"/>
+  <text x="340" y="156" text-anchor="middle" font-family="monospace" font-size="8" fill="white">!</text>
+
+  <!-- Legend -->
+  <circle cx="20" cy="220" r="6" fill="#c0392b" opacity="0.9"/>
+  <text x="32" y="224" font-family="monospace" font-size="8" fill="#aaa">high gap</text>
+  <circle cx="100" cy="220" r="6" fill="#e07b54" opacity="0.9"/>
+  <text x="112" y="224" font-family="monospace" font-size="8" fill="#aaa">med gap</text>
+  <circle cx="175" cy="220" r="6" fill="#d4a843" opacity="0.8"/>
+  <text x="187" y="224" font-family="monospace" font-size="8" fill="#aaa">emerging</text>
+  <text x="20" y="248" font-family="monospace" font-size="9" fill="#3a3a5a">PRINCIPLE → PRACTICE GAP · 6 AGENCIES</text>
+</svg>

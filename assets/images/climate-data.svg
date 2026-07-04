@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="#1a1e2e"/>
+  <!-- Agency nodes -->
+  <circle cx="200" cy="110" r="28" fill="#243052" stroke="#4a6ab5" stroke-width="2"/>
+  <text x="200" y="107" text-anchor="middle" font-family="monospace" font-size="8" fill="#8aaae0">CENSUS</text>
+  <text x="200" y="118" text-anchor="middle" font-family="monospace" font-size="8" fill="#8aaae0">BUREAU</text>
+  <circle cx="80" cy="60" r="20" fill="#1e2e3a" stroke="#3a7a9a" stroke-width="1.5"/>
+  <text x="80" y="57" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">NOAA</text>
+  <text x="80" y="67" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">CLIM.</text>
+  <circle cx="320" cy="60" r="20" fill="#1e2e3a" stroke="#3a7a9a" stroke-width="1.5"/>
+  <text x="320" y="57" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">FEMA</text>
+  <text x="320" y="67" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">FLOOD</text>
+  <circle cx="70" cy="175" r="20" fill="#1e2e3a" stroke="#3a7a9a" stroke-width="1.5"/>
+  <text x="70" y="172" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">TREE</text>
+  <text x="70" y="182" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">CANOPY</text>
+  <circle cx="330" cy="175" r="20" fill="#1e2e3a" stroke="#3a7a9a" stroke-width="1.5"/>
+  <text x="330" y="172" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">ACS</text>
+  <text x="330" y="182" text-anchor="middle" font-family="monospace" font-size="8" fill="#6aaccc">MICRO</text>
+  <circle cx="200" cy="210" r="20" fill="#2a1e3a" stroke="#7a4a9a" stroke-width="1.5"/>
+  <text x="200" y="207" text-anchor="middle" font-family="monospace" font-size="8" fill="#aa7acc">REMOTE</text>
+  <text x="200" y="217" text-anchor="middle" font-family="monospace" font-size="8" fill="#aa7acc">SENSING</text>
+  <!-- Connecting lines -->
+  <line x1="98" y1="70" x2="175" y2="95" stroke="#4a6ab5" stroke-width="1" opacity="0.7" stroke-dasharray="4,3"/>
+  <line x1="302" y1="70" x2="225" y2="95" stroke="#4a6ab5" stroke-width="1" opacity="0.7" stroke-dasharray="4,3"/>
+  <line x1="87" y1="162" x2="175" y2="128" stroke="#4a6ab5" stroke-width="1" opacity="0.7" stroke-dasharray="4,3"/>
+  <line x1="312" y1="162" x2="225" y2="128" stroke="#4a6ab5" stroke-width="1" opacity="0.7" stroke-dasharray="4,3"/>
+  <line x1="200" y1="192" x2="200" y2="138" stroke="#7a4a9a" stroke-width="1" opacity="0.7" stroke-dasharray="4,3"/>
+  <!-- Gap marker -->
+  <text x="130" y="130" font-family="monospace" font-size="9" fill="#e07b54">gap?</text>
+  <text x="245" y="130" font-family="monospace" font-size="9" fill="#e07b54">gap?</text>
+  <text x="20" y="248" font-family="monospace" font-size="9" fill="#3a5a7a">FEDERAL CLIMATE DATA LANDSCAPE SCAN</text>
+</svg>

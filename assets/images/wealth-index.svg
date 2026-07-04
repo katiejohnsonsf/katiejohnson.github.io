@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="#12181f"/>
+  <!-- Choropleth grid cells — Rhode Island style -->
+  <defs>
+    <linearGradient id="wg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d2b4a"/>
+      <stop offset="100%" style="stop-color:#1a5276"/>
+    </linearGradient>
+  </defs>
+  <!-- Grid of wealth-index colored cells -->
+  <rect x="30" y="25" width="28" height="22" fill="#0d2b4a" rx="1"/>
+  <rect x="62" y="25" width="28" height="22" fill="#1a4060" rx="1"/>
+  <rect x="94" y="25" width="28" height="22" fill="#1f5c7a" rx="1"/>
+  <rect x="126" y="25" width="28" height="22" fill="#2878a0" rx="1"/>
+  <rect x="158" y="25" width="28" height="22" fill="#3498c0" rx="1"/>
+  <rect x="190" y="25" width="28" height="22" fill="#55b8d8" rx="1"/>
+  <rect x="222" y="25" width="28" height="22" fill="#7acce8" rx="1"/>
+
+  <rect x="30" y="51" width="28" height="22" fill="#1a3a54" rx="1"/>
+  <rect x="62" y="51" width="28" height="22" fill="#1f5070" rx="1"/>
+  <rect x="94" y="51" width="28" height="22" fill="#2878a0" rx="1"/>
+  <rect x="126" y="51" width="28" height="22" fill="#3498c0" rx="1"/>
+  <rect x="158" y="51" width="28" height="22" fill="#55b8d8" rx="1"/>
+  <rect x="190" y="51" width="28" height="22" fill="#7acce8" rx="1"/>
+  <rect x="222" y="51" width="28" height="22" fill="#9adff5" rx="1"/>
+
+  <rect x="30" y="77" width="28" height="22" fill="#0d2b4a" rx="1"/>
+  <rect x="62" y="77" width="28" height="22" fill="#1a4060" rx="1"/>
+  <rect x="94" y="77" width="28" height="22" fill="#e07b54" rx="1"/>
+  <rect x="126" y="77" width="28" height="22" fill="#e09060" rx="1"/>
+  <rect x="158" y="77" width="28" height="22" fill="#3498c0" rx="1"/>
+  <rect x="190" y="77" width="28" height="22" fill="#55b8d8" rx="1"/>
+  <rect x="222" y="77" width="28" height="22" fill="#1a4060" rx="1"/>
+
+  <rect x="30" y="103" width="28" height="22" fill="#1f5c7a" rx="1"/>
+  <rect x="62" y="103" width="28" height="22" fill="#c0392b" rx="1"/>
+  <rect x="94" y="103" width="28" height="22" fill="#c0392b" rx="1"/>
+  <rect x="126" y="103" width="28" height="22" fill="#e07b54" rx="1"/>
+  <rect x="158" y="103" width="28" height="22" fill="#e09060" rx="1"/>
+  <rect x="190" y="103" width="28" height="22" fill="#2878a0" rx="1"/>
+  <rect x="222" y="103" width="28" height="22" fill="#1a4060" rx="1"/>
+
+  <rect x="30" y="129" width="28" height="22" fill="#2878a0" rx="1"/>
+  <rect x="62" y="129" width="28" height="22" fill="#1f5c7a" rx="1"/>
+  <rect x="94" y="129" width="28" height="22" fill="#e07b54" rx="1"/>
+  <rect x="126" y="129" width="28" height="22" fill="#1a4060" rx="1"/>
+  <rect x="158" y="129" width="28" height="22" fill="#1f5c7a" rx="1"/>
+  <rect x="190" y="129" width="28" height="22" fill="#3498c0" rx="1"/>
+  <rect x="222" y="129" width="28" height="22" fill="#7acce8" rx="1"/>
+
+  <!-- Color scale legend -->
+  <rect x="30" y="175" width="220" height="12" rx="2" fill="url(#leggrad)"/>
+  <defs>
+    <linearGradient id="leggrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0392b"/>
+      <stop offset="40%" style="stop-color:#e07b54"/>
+      <stop offset="70%" style="stop-color:#2878a0"/>
+      <stop offset="100%" style="stop-color:#9adff5"/>
+    </linearGradient>
+  </defs>
+  <text x="30" y="200" font-family="monospace" font-size="8" fill="#777">low wealth</text>
+  <text x="185" y="200" font-family="monospace" font-size="8" fill="#777">high wealth</text>
+
+  <!-- Satellite icon -->
+  <rect x="295" y="40" width="80" height="55" rx="4" fill="#1a2030" stroke="#3a5570" stroke-width="1"/>
+  <circle cx="335" cy="60" r="12" fill="none" stroke="#4a9ab5" stroke-width="1.5"/>
+  <circle cx="335" cy="60" r="7" fill="none" stroke="#4a9ab5" stroke-width="1"/>
+  <circle cx="335" cy="60" r="3" fill="#4a9ab5"/>
+  <line x1="315" y1="82" x2="355" y2="82" stroke="#3a5570" stroke-width="1"/>
+  <text x="300" y="94" font-family="monospace" font-size="7" fill="#4a7a9a">LANDSAT 5/7/8</text>
+
+  <text x="20" y="248" font-family="monospace" font-size="9" fill="#2a5a7a">RHODE ISLAND · 11,926 GRID CELLS · 2013–2023</text>
+</svg>

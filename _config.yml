@@ -4,39 +4,33 @@ relative_permalinks: false
 
 # Setup
 title:               Katie Johnson
-tagline:             Machine Learning Tutorials and Insights
+tagline:             Data Scientist & Researcher
 url:                 https://katiejohnson.github.io
 timezone:            America/Los_Angeles
-paginate:            5
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:            compressed
 
 # About/contact
 author:
   name:              Katie Johnson
   url:               https://katiejohnson.github.io
-  email:
-  
+  email:             thisiskatiejohnson@proton.me
+
 # Custom vars
 version:             2.0.0
 github:
   repo:              https://github.com/katiejohnsonsf/katiejohnson.github.io
 
 # This is the list of pages to include in the header of the website.
-pages_list:       
-  Research: 'https://www.innerworkings.ai'
-  Archive: '/archive/'
+pages_list:
+  About: '/about/'
 
-# Gems
-gems:
-  - jekyll-paginate
+# Plugins
+plugins:
   - jekyll-gist
-
-#analytics_id:       UA-76624103-1
-google_analytics_id: G-E25JX7SE8R
 
