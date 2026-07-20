@@ -6,13 +6,13 @@ permalink: /
 
 ### How I Approach the Work
 
-**I start from a theory of change before I build.** Before writing code, I want to understand: what lever does this touch? Who are the stakeholders? What does a good ending look like? This isn't hesitation — it's systems thinking applied before design.
+**I start from a theory of change before I build.** Before writing code, I want to understand: what lever does this touch? Who are the stakeholders? What does a good ending look like? This is systems thinking applied before design.
 
-**I hold my expertise lightly and lead with learning.** I don't assume I know everything, and I ask collaborators to help shape what gets built. I frame my technical contributions — data, AI, UX — as tools in service of a vision others help define, not solutions I impose.
+**I hold my expertise lightly and lead with learning.** I don't assume I know everything, and I ask collaborators to help shape what gets built. I frame my technical contributions — data, AI, UX — as tools in service of a vision others help define, rather than imposing solutions.
 
-**I care about facilitation as a discipline equal to engineering.** The Informed Seattle work isn't just an LLM pipeline — it's designed to enable conversation, weave stories together, and create feedback loops between citizens and government. Facilitation is a design value, not an add-on.
+**I care about facilitation as a discipline equal to engineering.** Data isn't just a pipeline output — when combined with human-centered facilitation, its design can enable conversation, weave stories together, and create feedback loops between stakeholders. Facilitation is a design value, and the relevance of technical work relies on it.
 
-**I'm drawn to work that is legible at scale but meaningful at the individual level.** The city council tool is meant to show aggregate neighborhood sentiment on a map *and* let one person say "here's how this ordinance affects my family." I want both layers.
+**I'm drawn to work that is legible at scale but meaningful at the individual level.** I'm passionate about the tools and capabilities of technology for understanding population-level patterns while simultaneously holding space for the reality of plurality outside of the data. Every person and moment in time is unique and is a strength of what it means to be human. I believe good systems design can support and use this as a means for constant improvement.
 
 ---
 
