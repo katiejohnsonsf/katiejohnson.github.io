@@ -18,9 +18,9 @@ permalink: /
 
 ### My Relationship to Impact
 
-I want my work to touch a lot of people, but through systemic change — not through scale for its own sake. I'm interested in changing the conditions that allow people to participate, not just reaching a large audience. There's a through-line in everything I do: who gets access, whose voice is heard, what infrastructure makes participation possible.
+Impact is the organizing purpose of my work. Over time I've moved from identifying primarily as a data scientist to seeing myself as someone who catalyzes how problems and solutions are understood—for vulnerable populations, communities, and the ecosystems we all depend on. I care less about the technical skillset itself than about where and how it's applied.
 
-I'm also honest with myself that tools don't stand alone. The tool won't achieve its goals without the human and organizational context around it. That keeps me from over-indexing on the artifact I'm building.
+I'm drawn to impact that's designed in from the start rather than measured after the fact: programs built with measurement and human-centered design from the beginning, so they actually change the lives of the people they're meant to serve. At its core, this work is about shifting power, transparency, and systems toward meeting people where they are and serving real human needs.
 
 ---
 
