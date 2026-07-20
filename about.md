@@ -8,7 +8,7 @@ permalink: /
 
 I love to build proof of concepts and prototypes with code to facilitate conversation but hold them lightly. I want to understand: what lever does this touch? Who are the stakeholders? What does a good ending look like? This is systems thinking applied before design.
 
-I hold my expertise lightly and lead with learning. I don't assume I know everything, and I ask collaborators to help shape what gets built. I frame my technological contributions of data, AI, and UX as tools in service of a vision others help define, rather than imposing solutions.
+I lead with learning. I don't assume I know everything, and I ask collaborators to help shape what gets built. I frame my technological contributions of data, AI, and UX as tools in service of a vision others help define, rather than imposing solutions.
 
 I care about facilitation as a discipline equal to engineering. Data isn't just a pipeline output—when combined with human-centered facilitation, its design can enable conversation, connect stories, and create feedback loops between stakeholders. Facilitation is a design value, and the relevance of technical work relies on it.
 
