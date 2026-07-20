@@ -5,12 +5,6 @@ permalink: /work/
 ---
 
 <div class="work-current">
-  <h3>What I'm Working On</h3>
-  <p>I'm a developer at <a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/">Informed Seattle</a> — a proof of concept for information infrastructure that translates Seattle City Council legislation into accessible weekly summaries. The application crawls Seattle's Legistar legislative database, runs AI-generated summaries through a chunked LLM pipeline, and deploys structured plain-language bill summaries via GitHub Pages. I'm a former Emerging Technology Fellow at the U.S. Census Bureau's xD cohort, where I collaborated with international partners on secure multiparty computation and AI governance frameworks for the federal data science lifecycle.</p>
-  <p>My previous work includes ML engineering at Mirror Labs (NLP-to-music generation pipelines), data analysis at Recurve (energy efficiency data products for the California PUC), and UX design at Accela (gov tech for permitting and licensing). I hold a Certificate in Data Science from Galvanize and a B.A. in Environmental Science from Mills College.</p>
-</div>
-
-<div class="work-current">
   <h3>Recent Projects</h3>
 </div>
 
@@ -31,7 +25,11 @@ permalink: /work/
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h2>
       {% if post.subtitle %}<p class="work-subtitle">{{ post.subtitle }}</p>{% endif %}
-      <p class="work-description">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      {% if post.collab %}<p class="work-collab">{{ post.collab }}</p>{% endif %}
+      <div class="work-desc-wrap">
+        <p class="work-description">{{ post.description | default: post.content | strip_html | truncatewords: 110 }}</p>
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="work-more">More &rarr;</a>
     </div>
   </div>
   {% endfor %}

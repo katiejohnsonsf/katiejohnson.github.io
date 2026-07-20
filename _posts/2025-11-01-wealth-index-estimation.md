@@ -6,6 +6,7 @@ date: 2025-11-01
 tags: machine-learning, remote-sensing, census
 image: /images/projects/wealth-index-estimation.png
 thumbnail: /images/projects/wealth-index-thumbnail.png
+description: "Existing tools for understanding economic wellbeing at fine spatial resolution are constrained by fundamental survey design limits. Traditional small area estimation methods become statistically unreliable below the block group level, carry high compliance overhead, and can take years to reflect ground conditions. This project developed a geo-temporal Earth observation and machine learning pipeline to predict average material wealth at the 1km grid level—framed as a gap measure between absolute income and relative cost of living—enabling program targeting, infrastructure planning, disaster preparedness, and causal analysis of policy treatment effects at the neighborhood level. The pipeline proceeded through complete data preparation phases in R and Python, with Google Earth Engine satellite image ingestion as the configured next step. Rhode Island served as the proof-of-concept geography, with block group income data revealing stark spatial inequality invisible to county-level policy tools."
 ---
 
 ![Median Household Income by Block Group and Dasymetric Downscaled Median HH Income, Rhode Island](/images/projects/wealth-index-estimation.png)
