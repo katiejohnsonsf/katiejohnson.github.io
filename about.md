@@ -32,6 +32,27 @@ I notice when I'm doing the "bridging" work — translating between people, doma
 
 ---
 
+{% assign recent = site.posts.first %}{% if recent %}
+<div class="about-recent">
+<h3>Recent Projects</h3>
+<div class="about-recent-card">
+<div class="about-recent-left">
+<span class="about-recent-date">{{ recent.date | date: "%d %b %Y" }}</span>
+{% if recent.thumbnail or recent.image %}<img src="{{ recent.thumbnail | default: recent.image }}" alt="{{ recent.title }}" class="about-recent-thumb" />{% endif %}
+</div>
+<div class="about-recent-right">
+<h4 class="about-recent-title"><a href="{{ site.baseurl }}{{ recent.url }}">{{ recent.title }}</a></h4>
+{% if recent.subtitle %}<p class="about-recent-sub">{{ recent.subtitle }}</p>{% endif %}
+{% if recent.collab %}<p class="about-recent-collab">{{ recent.collab }}</p>{% endif %}
+<p class="about-recent-desc">{{ recent.description | default: recent.excerpt | strip_html | truncatewords: 35 }}</p>
+</div>
+</div>
+<a href="{{ site.baseurl }}/work/" class="about-work-btn">View Projects</a>
+</div>
+{% endif %}
+
+---
+
 ### Get in Touch
 
 - GitHub: [katiejohnsonsf](https://github.com/katiejohnsonsf)
