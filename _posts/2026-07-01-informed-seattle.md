@@ -61,3 +61,7 @@ By lowering the barriers to understanding legislation, Informed Seattle aims to 
 - Strengthen democratic institutions by making participation possible without necessitating expertise in lawmaking processes.
 
 Ultimately, the project supports at-risk groups by reducing one of the most persistent barriers to civic power: unequal access to understandable information.
+
+---
+
+[View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/informed_seattle)
