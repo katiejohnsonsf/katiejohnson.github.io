@@ -10,6 +10,8 @@ image: /images/projects/informed-seattle-diagram.svg
 thumbnail: /images/projects/informed-seattle-diagram.svg
 ---
 
+<a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/" class="post-cta-button">View Live Proof of Concept</a>
+
 ### Problem
 
 Democratic participation is unequally distributed because civic information is unequally accessible.
@@ -65,5 +67,3 @@ Ultimately, the project supports at-risk groups by reducing one of the most pers
 ---
 
 [View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/informed_seattle)
-
-<a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/" class="post-cta-button">View Live Proof of Concept</a>
