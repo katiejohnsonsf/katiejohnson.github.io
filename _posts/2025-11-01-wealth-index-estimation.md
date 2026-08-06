@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: "Remote Sensing–ML Approach for Household Wealth Index Estimation"
 subtitle: "U.S. Census Bureau — xD / SEHSD"
 collab: "In collaboration with the AI & Global Development Lab"
