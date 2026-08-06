@@ -65,3 +65,5 @@ Ultimately, the project supports at-risk groups by reducing one of the most pers
 ---
 
 [View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/informed_seattle)
+
+<a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/" class="post-cta-button">View Live Proof of Concept</a>
