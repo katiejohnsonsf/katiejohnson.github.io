@@ -4,12 +4,12 @@ title: "Ecosystem Mapping: Classifying Endangered Plant Communities to Quantify 
 subtitle: "Independent Ecological Data Science Research"
 date: 2026-08-06
 tags: ecology, remote-sensing, gis
-image: /images/projects/ecosystem-mapping-survey-time-series.png
-thumbnail: /images/projects/ecosystem-mapping-survey-time-series.png
+image: /images/projects/ecosystem-mapping-rarity-heatmap.png
+thumbnail: /images/projects/ecosystem-mapping-rarity-heatmap.png
 description: "Ecosystem classification at the association level—the most precise and ecologically meaningful scale—is often costly, time-consuming, and incomplete, which means conservation resources may be misallocated and protective measures can lag behind ecological changes. This has become urgent as data center expansion creates substantial, localized demand for water and land, often diverted from ecosystems that depend on it. This project evaluates whether Earth Observation data, combined with California's vegetation datasets, can be used to train models that map ecosystems at the association level, producing a baseline for comparing infrastructure siting decisions against ecological risk."
 ---
 
-<img src="/images/projects/ecosystem-mapping-survey-time-series.png" alt="Ecosystem Surveys Over Time: number of surveys per day across California vegetation plot data, from the 1980s through the 2020s, showing a sharp increase in survey density beginning around 2000" style="max-width:100%;display:block;margin:0 0 1.5rem;" />
+<img src="/images/projects/ecosystem-mapping-rarity-heatmap.png" alt="California Ecosystem Surveys: rarest vegetation association per 1000m grid cell, based on 19,368 classified surveys across 8,280 cells and 10,029 distinct associations, showing statewide occurrences of the rarest association in each cell" style="max-width:100%;display:block;margin:0 0 1.5rem;" />
 
 *This project builds upon my experience in the Ecosystems of California course at Mills College in 2008, where I studied under desert ecologist Bruce Pavlic. Since that time, I have tracked the expansion of the dataset as field crews have surveyed plant communities throughout California.*
 
