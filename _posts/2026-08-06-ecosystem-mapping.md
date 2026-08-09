@@ -11,7 +11,7 @@ description: "Ecosystem classification at the association level—the most preci
 
 <img src="/images/projects/ecosystem-mapping-rarity-heatmap.png" alt="California Ecosystem Surveys: rarest vegetation association per 1000m grid cell, based on 19,368 classified surveys across 8,280 cells and 10,029 distinct associations, showing statewide occurrences of the rarest association in each cell" style="max-width:100%;display:block;margin:0 0 1.5rem;" />
 
-*This project builds upon my experience in the Ecosystems of California course at Mills College in 2008, where I studied under desert ecologist Bruce Pavlic. Since that time, I have tracked the expansion of the dataset as field crews have surveyed plant communities throughout California.*
+*This project builds upon my experience in the Ecosystems of California course at Mills College in 2008, where I studied under desert ecologist Bruce Pavlik. Since that time, I have tracked the expansion of the dataset as field crews have surveyed plant communities throughout California.*
 
 ---
 
