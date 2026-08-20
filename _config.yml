@@ -21,6 +21,9 @@ author:
   url:               https://katiejohnson.github.io
   email:             thisiskatiejohnson@proton.me
 
+# Analytics — GA4 Measurement ID (e.g. G-XXXXXXXXXX), from GA Admin > Data Streams
+google_analytics_id: G-8PH2BSWVS7
+
 # Custom vars
 version:             2.0.0
 github:
