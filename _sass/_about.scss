@@ -34,6 +34,13 @@ $border:          #e5dcd4;
   margin-bottom: 3rem;
   border-bottom: 1px solid $border;
 
+  .hero-brand {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.7rem;
+  }
+
   .hero-wordmark {
     font-size: 1rem;
     font-weight: 700;
@@ -41,8 +48,18 @@ $border:          #e5dcd4;
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    white-space: nowrap;
 
     &:hover { color: $accent; text-decoration: none; }
+  }
+
+  .hero-tagline {
+    font-size: 0.85rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    text-transform: none;
+    color: $text-secondary;
   }
 
   .hero-nav-links {
@@ -390,5 +407,9 @@ $border:          #e5dcd4;
   .about-photo-col {
     flex: none;
     width: 180px;
+  }
+
+  .hero-tagline {
+    display: none;
   }
 }

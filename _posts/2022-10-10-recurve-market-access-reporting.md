@@ -29,7 +29,7 @@ The difficulty was building a measurement system trustworthy enough to allocate 
 
 ### Solution
 
-A configurable reporting pipeline that measures outcomes from meter data and scales across utilities.
+I led the development of a configurable reporting pipeline that measures outcomes from meter data and scales across utilities.
 
 The project produced a Market Access reporting product for the whole organization, with scope shaped through weekly collaboration with business stakeholders and subject matter experts so that data definitions could evolve step by step as CPUC's requirements changed—treating changing requirements as a normal part of the design process rather than a disruption to it.
 
@@ -38,7 +38,7 @@ The technical work made the pipeline both accurate and portable:
 - CPUC-aligned metrics, written in SQL and modeled in Looker, were designed so a single pipeline could serve any client, letting Market Access programs scale.
 - A configuration layer abstracting dbt, LaTeX, and Looker made the pipeline adaptable to different utility datasets, cutting new-client deployment effort 30x.
 
-Privacy was also a central concern when modeling data to improve energy efficiency. Conversations with small and medium-sized enterprises reached agreement on anonymizing building attribute data, keeping personal information protected while still letting energy efficiency companies evaluate performance across different jurisdictions.
+Privacy was also a central concern when modeling data to improve energy efficiency. I led conversations with internal and external stakeholders about protecting small and medium-sized enterprises by anonymizing building attribute data. This allowed energy efficiency companies to evaluate performance across different jurisdictions while keeping personal information safe.
 
 ---
 

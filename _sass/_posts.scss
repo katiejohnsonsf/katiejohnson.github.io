@@ -78,6 +78,13 @@
   border-bottom: 1px solid #e5dcd4;
 }
 
+.hero-brand {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.7rem;
+}
+
 .hero-wordmark {
   font-size: 1rem;
   font-weight: 700;
@@ -85,8 +92,18 @@
   text-transform: uppercase;
   color: #1e1612;
   text-decoration: none;
+  white-space: nowrap;
 
   &:hover { text-decoration: none; color: #c95b2b; }
+}
+
+.hero-tagline {
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #6b5f55;
 }
 
 .hero-nav-links {
@@ -311,6 +328,10 @@
 @media (max-width: 700px) {
   .work-entry {
     grid-template-columns: 1fr;
+  }
+
+  .hero-tagline {
+    display: none;
   }
 }
 
