@@ -6,6 +6,7 @@ collab: "In collaboration with UW eSciences Institute"
 description: "Democratic participation is unequally distributed because civic information is unequally accessible. Every week, local governments make decisions that shape housing affordability, transportation, public safety, climate resilience, disability services, childcare, and public health. While these decisions are technically public, they are rarely understandable to the people most affected by them. Residents with fewer resources—working parents, renters, immigrants, people with disabilities, young adults, and those unfamiliar with legal or bureaucratic language—often cannot afford the time or expertise required to interpret legislation before decisions are made. As a result, public participation disproportionately reflects organizations and individuals who already possess the time, knowledge, and relationships to navigate government. This creates a feedback loop where the people most impacted by policy are the least represented in designing it. Informed Seattle builds civic information infrastructure to make government understandable before decisions are finalized—translating complex Seattle City Council legislation into human-reviewed, plain-language summaries customized to different communities' interests and needs."
 date: 2026-07-01
 tags: civic-tech, nlp, government
+github: https://github.com/katiejohnsonsf/Informed_Seattle
 image: /images/projects/informed-seattle-diagram.svg
 thumbnail: /images/projects/informed-seattle-diagram.svg
 ---
@@ -66,4 +67,4 @@ Ultimately, the project supports at-risk groups by addressing one of the most pe
 
 ---
 
-[View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/informed_seattle)
+[View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/Informed_Seattle)
