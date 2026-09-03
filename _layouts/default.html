@@ -15,7 +15,8 @@
           </div>
           <ul class="hero-nav-links">
             <li><a href="{{ site.baseurl }}/">About</a></li>
-            <li><a href="{{ site.baseurl }}/work/" class="hero-nav-current">Work</a></li>
+            <li><a href="{{ site.baseurl }}/work/"{% unless page.url == '/research/' %} class="hero-nav-current"{% endunless %}>Work</a></li>
+            <li><a href="{{ site.baseurl }}/research/"{% if page.url == '/research/' %} class="hero-nav-current"{% endif %}>Research &amp; Publications</a></li>
           </ul>
         </nav>
 

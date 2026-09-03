@@ -397,6 +397,53 @@ $border:          #e5dcd4;
   }
 }
 
+// Research page
+.research-work-list {
+  margin-bottom: 3rem;
+
+  .work-title a { color: $text-primary; }
+  .work-desc-wrap::after {
+    background: linear-gradient(to bottom, rgba(253,250,246,0) 0%, $about-bg 100%);
+  }
+}
+
+.publications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-entry {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid $border;
+
+  &:last-child { border-bottom: none; }
+}
+
+.publication-authors {
+  color: $text-secondary;
+  font-size: 0.95rem;
+  margin: 0 0 0.35rem;
+
+  strong { color: $text-primary; }
+}
+
+.publication-title {
+  color: $text-primary;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  margin: 0 0 0.35rem;
+}
+
+.publication-venue {
+  color: $text-secondary;
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+}
+
 // Responsive
 @media (max-width: 640px) {
   .about-profile {
