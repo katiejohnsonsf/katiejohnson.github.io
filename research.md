@@ -30,7 +30,10 @@ permalink: /research/
       <div class="work-desc-wrap">
         <p class="work-description">{{ post.description | default: post.content | strip_html | truncatewords: 110 }}</p>
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="work-more">More &rarr;</a>
+      <div class="work-links">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="work-more">More &rarr;</a>
+        {% if post.github %}<a href="{{ post.github }}" class="work-more work-github">GitHub &rarr;</a>{% endif %}
+      </div>
     </div>
   </div>
   {% endif %}

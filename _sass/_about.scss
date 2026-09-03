@@ -405,6 +405,10 @@ $border:          #e5dcd4;
   .work-desc-wrap::after {
     background: linear-gradient(to bottom, rgba(253,250,246,0) 0%, $about-bg 100%);
   }
+  .work-links {
+    display: flex;
+    gap: 0.6rem;
+  }
 }
 
 .publications-list {

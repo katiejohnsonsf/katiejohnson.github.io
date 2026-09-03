@@ -5,6 +5,7 @@ subtitle: "U.S. Census Bureau Emerging Technology (xD) Fellowship / SEHSD"
 collab: "In collaboration with the AI & Global Development Lab"
 date: 2025-11-01
 tags: machine-learning, remote-sensing, census
+github: https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI
 image: /images/projects/wealth-index-estimation.png
 thumbnail: /images/projects/wealth-index-estimation.png
 description: "Existing tools for understanding economic wellbeing at fine spatial resolution are constrained by fundamental survey design limits. Traditional small area estimation methods become statistically unreliable below the block group level, carry high compliance overhead, and can take years to reflect ground conditions. This project developed a geo-temporal Earth observation and machine learning pipeline to predict average material wealth at the 1km grid level—framed as a gap measure between absolute income and relative cost of living—enabling program targeting, infrastructure planning, disaster preparedness, and causal analysis of policy treatment effects at the neighborhood level. The pipeline proceeded through complete data preparation phases in R and Python, with Google Earth Engine satellite image ingestion as the configured next step. Rhode Island served as the proof-of-concept geography, with block group income data revealing stark spatial inequality invisible to county-level policy tools."
@@ -70,3 +71,5 @@ That legibility carries obligations. The open questions that matter most are ins
 ### Stack & Methods
 
 R (tidycensus, terra, sf, exactextractr, sfarrow, ggplot2, dplyr) · Python (pandas, numpy, ee, multiprocessing) · Google Earth Engine (Landsat 5/7/8) · LandSCAN Global · ACS 5-year estimates (B19013) · dasymetric downscaling · TCES / Self-Sufficiency Standard framing · LSTM / ResNet-18 (Daoud/Adel-Petterson) · Pearson's r² · xD / Data & Society disclosure pre-mortem · Rhode Island PoC (11,926 cells; 2013/2018/2023)
+
+Project repository available on [GitHub](https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI).
