@@ -9,7 +9,7 @@ permalink: /research/
 ### Research
 
 <div class="work-list research-work-list">
-{% assign research_titles = "Informed Seattle: Collective Sensemaking Infrastructure with AI Supported Legislative Plain Text Summaries|Remote Sensing–ML Approach for Household Wealth Index Estimation" | split: "|" %}
+{% assign research_titles = "Informed Seattle: Collective Sensemaking Infrastructure with AI Supported Legislative Plain Text Summaries|CRE for Redevelopment Risk: An Earth Observation Exposure Layer" | split: "|" %}
 {% for post in site.posts %}
   {% if research_titles contains post.title %}
   <div class="work-entry">
