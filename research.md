@@ -44,8 +44,10 @@ permalink: /research/
 
 <ul class="publications-list">
   <li class="publication-entry">
-    <p class="publication-authors">Atul Rawal, <strong>Katie Johnson</strong>, Curtis Mitchell, Michael Walton, Diamond Nwankwo.</p>
+    <p class="publication-authors">Rawal, A., <strong>Johnson, K.</strong>, Mitchell, C., Walton, M., Nwankwo, D. (2024).</p>
     <p class="publication-title">"Responsible Artificial Intelligence (RAI) in US Federal Government: Principles, Policies, and Practices."</p>
-    <p class="publication-venue">Presented in Workshop: Regulatable ML: Towards Bridging the Gaps between Machine Learning Research and Regulations. NeurIPS, Vancouver, Canada, December 2024.</p>
+    <p class="publication-venue">Workshop on Regulatable ML: Towards Bridging the Gaps between Machine Learning Research and Regulations, NeurIPS 2024, Vancouver, Canada.</p>
+    <p class="publication-type">Type: Position paper (workshop)</p>
+    <p class="publication-links"><a href="https://arxiv.org/abs/2502.03470">arXiv:2502.03470</a></p>
   </li>
 </ul>
