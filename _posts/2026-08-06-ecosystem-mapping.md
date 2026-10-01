@@ -22,7 +22,7 @@ Effective environmental policy requires detailed knowledge of what needs protect
 
 The central question is which ecosystems are endangered within a given state, and how they can be identified rapidly enough to inform protection before siting decisions occur.
 
-This issue has become increasingly urgent as the expansion of data centers creates substantial, localized demand for water and land. Much of this water is diverted from ecosystems that rely on it. A single large facility may consume millions of gallons daily for cooling, depleting watersheds and stressing plant communities that would be recognized as rare with association-level data. Without a baseline indicating what is endangered and where, these ecological costs remain unaccounted for in data center siting decisions.
+This issue has become increasingly urgent as the expansion of data centers creates substantial, localized demand for water and land. Much of this water is diverted from ecosystems that rely on it. A single large facility may consume millions of gallons daily for cooling — water that can come from the same watersheds supporting plant communities that would be recognized as rare with association-level data. Without a baseline indicating what is endangered and where, these ecological costs remain unaccounted for in data center siting decisions.
 
 Improved information sharing among agencies, targeted conservation funding, and informed infrastructure siting are essential to support future environmental health and biodiversity. The key challenge is that scarcity becomes apparent only at the association scale, yet current methods are neither fast nor affordable enough to keep pace.
 

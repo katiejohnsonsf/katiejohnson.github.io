@@ -23,7 +23,7 @@ Public health research depends on linking people across datasets, connecting som
 
 The two organizational systems involved set hard constraints: Census data is protected under Title 13, health records under HIPAA, and the Bureau's matching outputs are possible links needing human review, creating unacceptable exposure of patient identity.
 
-The cultural system encoded in the health data revealed the problem: people most likely to lack an SSN in their record are the unhoused, low-income, and undocumented. A linkage built on identifiers available to the well-documented would reproduce the erasure the research tries to correct. The lever is to establish that a person in one dataset is the same as in another without relying on SSNs, which biased record linkage accuracy against sensitive populations.
+The cultural system encoded in the health data revealed the problem: people most likely to lack an SSN in their record tend to be the unhoused, low-income, and undocumented. A linkage built on identifiers available to the well-documented would reproduce the erasure the research tries to correct. The lever is to establish that a person in one dataset is the same as in another without relying on SSNs — linkage methods that depend on SSNs tend to underperform for populations less likely to have one on record, biasing match accuracy against exactly the groups this effort aims to include.
 
 ---
 

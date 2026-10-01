@@ -26,7 +26,7 @@ description: "Most AI fairness interventions occur after model development, thro
 
 Most AI fairness interventions occur after model development, typically through output audits that address harms only after they've affected people. This overlooks an earlier and more effective intervention point. By the time a model generates predictions, the decisions about data inclusion and feature selection have already been finalized—bias introduced during feature engineering is embedded before any assessment of disparate impact or model evaluation begins.
 
-The more effective intervention happens earlier: feature engineering is the stage where data scientists can assess whether a feature behaves differently across the populations a model affects. Remediation at this stage is significantly more cost-effective than post-deployment fixes.
+The more effective intervention happens earlier: feature engineering is the stage where data scientists can assess whether a feature behaves differently across the populations a model affects. Remediation at this stage should be far cheaper than post-deployment fixes, following the same logic that makes any defect less costly to catch before it's built into a shipped system than after.
 
 My focus sits at the intersection of the organizational system—the machine learning lifecycle and an organization's governance practices—and the cultural system, where bias gets encoded as a seemingly neutral technical property with real consequences. The gap is that practitioners lack a standardized method to evaluate feature fairness at the point of selection.
 
@@ -40,7 +40,7 @@ In addition to post-hoc audits, I shifted the intervention to the earliest stage
 
 The central method evaluates how a feature's influence varies across the demographic groups a model affects. Consistent behavior across groups indicates fair representation; disproportionate influence for a specific subgroup signals the need for further investigation before using the feature in training.
 
-The canonical example: latitude and longitude may appear neutral, but because of racially segregated residential patterns in the United States, these variables act as proxies for race. Models trained on location data in housing or credit contexts can produce racially biased predictions without ever explicitly encoding race. RFE exposes issues like this before they cause harm.
+The canonical example: latitude and longitude may appear neutral, but research on residential segregation in the United States has repeatedly shown these variables can act as proxies for race. Models trained on location data in housing or credit contexts can produce racially biased predictions without ever explicitly encoding race. RFE exposes issues like this before they cause harm.
 
 The framework is intentionally model-agnostic, built to be adopted as a standard practice rather than a niche technique. RFE also provides guidelines for when disparities should prompt review by domain experts or community governance, rather than relying solely on automated adjustments—keeping a human in the loop.
 
