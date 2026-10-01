@@ -2,6 +2,8 @@
 layout: post
 title: "Environmental Data Landscape Scan for Federal Climate Policy"
 subtitle: "U.S. Census Bureau Emerging Technology (xD) Fellowship / SEHSD"
+status: "Research summary"
+census_disclaimer: true
 date: 2024-11-15
 tags: environmental-data, climate, government
 image: /images/projects/climate-data-landscape-thumbnail.png

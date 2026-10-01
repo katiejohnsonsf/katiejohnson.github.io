@@ -2,6 +2,8 @@
 layout: post
 title: "Counting the Uncounted: Privacy-Preserving Linkage for Public Health"
 subtitle: "U.S. Census Bureau Emerging Technology (xD) Fellowship / eHealth and Northwestern University CAPriCORN network"
+status: "Proof of concept"
+census_disclaimer: true
 date: 2025-11-26
 tags: privacy, public-health, government
 image: /images/projects/counting-uncounted-who-the-ssn-drops.png

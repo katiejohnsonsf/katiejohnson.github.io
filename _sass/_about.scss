@@ -527,6 +527,45 @@ $border:          #e5dcd4;
   }
 }
 
+// Project status badge (status: front matter, near titles) and disclaimers
+.status-badge {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $accent;
+  border: 1px solid $accent;
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}
+
+.status-note {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: $text-secondary;
+}
+
+.disclaimer-callout {
+  margin: 1.25rem 0;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid $border;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.02);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: $text-secondary;
+
+  p {
+    margin: 0;
+    color: inherit;
+  }
+}
+
 // Responsive
 @media (max-width: 640px) {
   .about-profile {

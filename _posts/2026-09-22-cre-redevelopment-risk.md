@@ -12,6 +12,7 @@ team:
     credit: ["Conceptualization", "Software", "Formal analysis", "Writing – original draft"]
     description: "Adapted the pipelines to process multiple ACS vintages; designed and built the geo-temporal model; designed the redevelopment exposure layer."
 acknowledgment: "The Rhode Island proof of concept was developed in collaboration with Joey Marshall and Adel Daoud from the AI & Global Development Lab."
+status: "In progress"
 date: 2026-09-22
 tags: remote-sensing, machine-learning, housing-policy
 github: https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI
@@ -21,6 +22,10 @@ description: "Housing displacement shows up in satellite imagery eighteen months
 ---
 
 ![Median Household Income by Block Group and Dasymetric Downscaled Median HH Income, Rhode Island](/images/projects/wealth-index-estimation.png)
+
+<div class="disclaimer-callout">
+<p>The redevelopment exposure layer is an independent proposal and is not an official U.S. Census Bureau product or project. The Rhode Island proof of concept was developed in part during my Census xD fellowship and used only public data.</p>
+</div>
 
 **An Earth observation exposure layer for the Community Resilience Estimates**
 
@@ -104,7 +109,7 @@ The people above are all active in the window between when redevelopment starts 
 
 ---
 
-### Proof of Concept: What the Current Pipeline Established
+### Proof of Concept: What the Current Pipeline Established <span class="status-badge status-proof-of-concept">Proof of concept</span>
 
 The median-income model isn't just a goal — it's a complete, reproducible pipeline. The geo-temporal-wealth-estimation-RI system runs the full process end to end: pulls ACS block-group income data and downscales it dasymetrically onto a 1km LandScan grid, exports ten years of Landsat and nightlights composites per cell via Google Earth Engine, builds model-ready TFRecords and cross-validation folds, trains a dual-branch ResNet-18 + BiLSTM model, runs inference on a held-out split, and maps the predictions.
 

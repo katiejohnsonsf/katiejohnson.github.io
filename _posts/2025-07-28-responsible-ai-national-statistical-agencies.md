@@ -3,6 +3,8 @@ layout: post
 title: "Responsible AI in National Statistical Agencies"
 subtitle: "Challenges in applying responsible AI principles in daily practice and what practitioners require to address these gaps."
 collab: "U.S. Census Bureau Emerging Technology (xD) Fellowship"
+status: "Research summary"
+census_disclaimer: true
 date: 2025-07-28
 tags: responsible-ai, government, policy
 image: /images/projects/responsible-ai-data-lifecycle.png

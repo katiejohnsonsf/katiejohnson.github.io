@@ -3,6 +3,8 @@ layout: post
 title: "Responsible Feature Engineering: Advancing Fairness from Post-Hoc Audit to a Design Discipline"
 subtitle: "U.S. Census Bureau Emerging Technology (xD) Fellowship"
 collab: "With Atul Rawal"
+status: "Design proposal"
+census_disclaimer: true
 date: 2025-02-27
 tags: fairness, machine-learning, responsible-ai
 image: /images/projects/responsible-feature-engineering-intervention-point.png

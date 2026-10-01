@@ -2,6 +2,8 @@
 layout: post
 title: "Measuring the Societal Impacts of AI: The MIDAS Initiative"
 subtitle: "U.S. Census Bureau Emerging Technology (xD) Fellowship"
+status: "Completed"
+census_disclaimer: true
 date: 2024-12-15
 tags: responsible-ai, government, survey-research
 image: /images/projects/midas-the-empty-column.png

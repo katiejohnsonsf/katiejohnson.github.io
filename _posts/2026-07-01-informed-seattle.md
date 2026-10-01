@@ -3,6 +3,8 @@ layout: post
 title: "Informed Seattle: Collective Sensemaking Infrastructure with AI Supported Legislative Plain Text Summaries"
 subtitle: "Civic Information Infrastructure for Local Democracy"
 collab: "In collaboration with UW eSciences Institute"
+status: "Proof of concept"
+status_note: "Problem-space research in progress"
 description: "Democratic participation is unequally distributed because civic information is unequally accessible. Every week, local governments make decisions that shape housing affordability, transportation, public safety, climate resilience, disability services, childcare, and public health. While these decisions are technically public, they are rarely understandable to the people most affected by them. Residents with fewer resources—working parents, renters, immigrants, people with disabilities, young adults, and those unfamiliar with legal or bureaucratic language—often cannot afford the time or expertise required to interpret legislation before decisions are made. As a result, public participation disproportionately reflects organizations and individuals who already possess the time, knowledge, and relationships to navigate government. This creates a feedback loop where the people most impacted by policy are the least represented in designing it. Informed Seattle builds civic information infrastructure to make government understandable before decisions are finalized—translating complex Seattle City Council legislation into human-reviewed, plain-language summaries customized to different communities' interests and needs."
 date: 2026-07-01
 tags: civic-tech, nlp, government

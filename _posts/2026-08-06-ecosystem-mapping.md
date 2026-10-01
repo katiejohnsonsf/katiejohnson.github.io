@@ -2,6 +2,7 @@
 layout: post
 title: "Ecosystem Mapping: Classifying Endangered Plant Communities to Quantify the Ecological Cost of Data Centers"
 subtitle: "Independent Ecological Data Science Research"
+status: "In progress"
 date: 2026-08-06
 tags: ecology, remote-sensing, gis
 image: /images/projects/ecosystem-mapping-rarity-heatmap.png

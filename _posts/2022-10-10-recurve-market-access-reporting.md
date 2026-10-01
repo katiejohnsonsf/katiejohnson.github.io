@@ -2,6 +2,7 @@
 layout: post
 title: "Recurve Market Access Reporting"
 subtitle: "Data product for CPUC oversight of $150M in clean-energy program funding"
+status: "Completed"
 date: 2022-10-10
 tags: energy, government, data-engineering
 image: /images/projects/recurve-duck-curve-peak-reduction.png
