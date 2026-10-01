@@ -18,7 +18,7 @@ tags: remote-sensing, machine-learning, housing-policy
 github: https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI
 image: /images/projects/wealth-index-estimation.png
 thumbnail: /images/projects/wealth-index-estimation.png
-description: "Housing displacement shows up in satellite imagery eighteen months before it shows up in survey data — by the time a five-year ACS estimate reflects a neighborhood's turnover, the building has already sold, been redeveloped, and the households who lived there have already moved. This project designs a redevelopment exposure layer for the Census Community Resilience Estimates: instead of inferring income from imagery, it detects construction, demolition, and land-use conversion directly from Landsat and Sentinel-2, trained on parcel-level permit and assessor records, and deliberately extends detection into jurisdictions with the weakest record-keeping. It builds directly on a completed geo-temporal wealth-estimation pipeline (Rhode Island proof of concept, R² 0.120) whose infrastructure carries over even though its income-prediction target didn't, and treats disclosure avoidance as a design problem to solve before release rather than a compliance check after it."
+description: "This project's central hypothesis is that housing displacement shows up in satellite imagery well before it shows up in survey data — by the time a five-year ACS estimate reflects a neighborhood's turnover, the building may have already sold, been redeveloped, and the households who lived there may have already moved. This project designs a redevelopment exposure layer for the Census Community Resilience Estimates: instead of inferring income from imagery, it detects construction, demolition, and land-use conversion directly from Landsat and Sentinel-2, trained on parcel-level permit and assessor records, and deliberately extends detection into jurisdictions with the weakest record-keeping. It builds directly on a completed geo-temporal wealth-estimation pipeline (Rhode Island proof of concept, R² 0.120) whose infrastructure carries over even though its income-prediction target didn't, and treats disclosure avoidance as a design problem to solve before release rather than a compliance check after it."
 ---
 
 ![Median Household Income by Block Group and Dasymetric Downscaled Median HH Income, Rhode Island](/images/projects/wealth-index-estimation.png)
@@ -37,9 +37,17 @@ description: "Housing displacement shows up in satellite imagery eighteen months
 
 ### Problem
 
-Satellite imagery can show evidence of displacement eighteen months before survey data catches up.
+A central hypothesis of this project is that satellite imagery can show evidence of displacement before survey data catches up.
 
-A building sells, permits get pulled, older units come down, larger new ones go up — and twelve to thirty-six months later, rents rise and households leave. That change doesn't show up in the ACS, which runs a five-year moving average and is released with a lag, until well after people have already moved and the neighborhood has already changed.
+**Hypotheses this project tests:**
+
+- Satellite imagery can reveal redevelopment activity roughly eighteen months before it would show up in survey-based estimates.
+- Displacement typically follows visible redevelopment — a sale, a permit, construction — by twelve to thirty-six months.
+- Preservation dollars go further the earlier they're deployed: the same dollar should preserve several times as many units ahead of a repricing as after.
+
+If these hold, a redevelopment exposure layer built from imagery could give housing agencies and tenant advocates meaningfully earlier warning than they have today. None of the three has been validated against ground-truth displacement data yet — they're the assumptions this project is designed to test, not established findings.
+
+A building sells, permits get pulled, older units come down, larger new ones go up — and, if the displacement-lag hypothesis above holds, rents rise and households leave somewhere between twelve and thirty-six months later. That change doesn't show up in the ACS, which runs a five-year moving average and is released with a lag, until well after people have already moved and the neighborhood has already changed.
 
 The tools available to people working in real time don't let them track this as it happens.
 
@@ -100,9 +108,9 @@ Two sources of error remain: the LandScan weighting still assumes ambient popula
 
 The people above are all active in the window between when redevelopment starts and when displacement happens. That's the window this changes.
 
-- **Preservation acquisitions happen earlier.** A housing agency that sees conversion pressure building on a block of naturally occurring affordable housing can buy and secure the properties before the market reprices — the difference between households staying and households having to move. The same dollar preserves several times as many units ahead of a repricing as it does after.
+- **Preservation acquisitions happen earlier.** A housing agency that sees conversion pressure building on a block of naturally occurring affordable housing can buy and secure the properties before the market reprices — the difference between households staying and households having to move. If the preservation-timing hypothesis holds, the same dollar should preserve several times as many units ahead of a repricing as it does after.
 - **Expiring affordability gets assessed by pressure, not just by date.** Every LIHTC covenant eventually expires, but not every expiration is a displacement event. A block with no redevelopment pressure at expiration is a routine administrative process. A block where surrounding properties are being replaced at expiration is an emergency. Right now, both look identical in the HUD database.
-- **Tenant protection gets staged ahead of the notice.** Right-to-counsel programs, door-to-door know-your-rights campaigns, and emergency rental assistance work better before a notice goes out than after. Staging them requires a forecast, and a physical forecast is available eighteen months before a survey-based one.
+- **Tenant protection gets staged ahead of the notice.** Right-to-counsel programs, door-to-door know-your-rights campaigns, and emergency rental assistance work better before a notice goes out than after. Staging them requires a forecast, and — if the imagery-lead-time hypothesis holds — a physical forecast would be available up to eighteen months before a survey-based one.
 - **Relocation assistance gets planned instead of improvised.** Agencies that know in advance where displacement is coming can prepare for it; agencies that only learn from eviction records can't.
 - **Hazard mitigation planning reflects current conditions.** A BRIC subapplication built on a stale building inventory omits the fastest-changing neighborhoods — and since BCA requirements penalize undercounted areas, that also makes the application less competitive.
 - **The visibility gap is smallest where it matters most.** A jurisdiction that can't afford a permit database has no redevelopment data at all today. This model generates that data anyway, from public imagery, at no cost to the jurisdiction — the most direct equity mechanism in the design.
@@ -139,7 +147,7 @@ The negative result is cleanly localized — it's the label that failed, not the
 
 Most of the engineering carries over unchanged. What changes is the target, the prediction head, the metrics, and the geoprocessing step — which the new target makes unnecessary.
 
-The proof of concept also justified the pivot. Estimating income asks imagery to infer something it can't see, competes with a survey that's already better at measuring it, and produces an artifact with a well-documented history of causing harm. Detecting redevelopment asks imagery to recognize something that's actually in the pixels, fills a gap no survey covers, and produces an artifact used by the people trying to keep residents in place. An R² of 0.120 is what turned that comparison from theoretical to concrete.
+The proof of concept also justified the pivot. Estimating income asks imagery to infer something it can't see, competes with a survey that's already better at measuring it, and raises the same disclosure and misuse concerns that come up across AI-for-socioeconomic-prediction work generally. Detecting redevelopment asks imagery to recognize something that's actually in the pixels, fills a gap no survey covers, and produces an artifact used by the people trying to keep residents in place. An R² of 0.120 is what turned that comparison from theoretical to concrete.
 
 The open question on the income model stays open — whether the gap reflects under-training or a real ceiling. It's still worth answering, and answering it is now cheap: the pipeline already exists, and closing it out is a matter of tuning, not building.
 
