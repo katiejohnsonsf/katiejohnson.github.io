@@ -47,5 +47,20 @@ I put the Google Adsense code in `_includes/advertising.html` and then inserted 
 It took a good day and a half or more before I saw any ads on my site. Until then, the Javascript Adsense Javascript was actually throwing an error! I could see the exception in the Chrome developer tools. Wish they handled that better--getting an exception on your code is unsettling! 
 
 
+Licensing
+=========
+This repository is dual-licensed:
+
+- **Code** (Jekyll templates, layouts, includes, and stylesheets) is licensed
+  under the [MIT License](LICENSE), derived from the original
+  [Poole](https://github.com/poole/poole) / Lanyon theme by Mark Otto.
+- **Content** (research write-ups, project descriptions, and the original
+  figures I created for them) is licensed under
+  [CC BY 4.0](LICENSE-CONTENT).
+
+My headshot and any photographs or third-party images are excluded from the
+content license. See `LICENSE-CONTENT` for the full terms, including a note
+on project write-ups that describe work performed as a U.S. federal employee.
+
 [poole_repo]: https://github.com/poole/poole "Poole repository on GitHub"
 [jl_poole]: http://joshualande.com/jekyll-github-pages-poole/ "Joshua Lande's blog post on Jekyll with Poole"
