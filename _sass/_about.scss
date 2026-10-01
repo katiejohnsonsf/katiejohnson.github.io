@@ -585,6 +585,13 @@ $border:          #e5dcd4;
   }
 }
 
+.ai-assist-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: $text-secondary;
+}
+
 // Responsive
 @media (max-width: 640px) {
   .about-profile {

@@ -11,6 +11,7 @@ tags: civic-tech, nlp, government
 github: https://github.com/katiejohnsonsf/Informed_Seattle
 image: /images/projects/informed-seattle-diagram.svg
 thumbnail: /images/projects/informed-seattle-diagram.svg
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 ---
 
 <a href="https://katiejohnsonsf.github.io/Informed_Seattle/calendar/what_changed/" class="post-cta-button">View Live Proof of Concept</a>
@@ -68,5 +69,11 @@ By lowering barriers to understanding legislation, Informed Seattle seeks to mak
 Ultimately, the project supports at-risk groups by addressing one of the most persistent barriers to civic power: unequal access to comprehensible information.
 
 ---
+
+### Stack & Methods
+
+Agent-based legislative summarization · community-governed evaluation criteria · Seattle City Council legislative data · GitHub Pages (live proof of concept) · in collaboration with UW eSciences Institute.
+
+{% include ai-assist.html %}
 
 [View the Informed Seattle GitHub repository →](https://github.com/katiejohnsonsf/Informed_Seattle)

@@ -7,6 +7,7 @@ date: 2026-08-06
 tags: ecology, remote-sensing, gis
 image: /images/projects/ecosystem-mapping-rarity-heatmap.png
 thumbnail: /images/projects/ecosystem-mapping-rarity-heatmap.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "Ecosystem classification at the association level—the most precise and ecologically meaningful scale—is often costly, time-consuming, and incomplete, which means conservation resources may be misallocated and protective measures can lag behind ecological changes. This has become urgent as data center expansion creates substantial, localized demand for water and land, often diverted from ecosystems that depend on it. This project evaluates whether Earth Observation data, combined with California's vegetation datasets, can be used to train models that map ecosystems at the association level, producing a baseline for comparing infrastructure siting decisions against ecological risk."
 ---
 
@@ -55,5 +56,7 @@ Achieving meaningful impact will require collaboration with experts in ecology, 
 ### Stack & Methods
 
 Python, Jupyter, geospatial and GIS data (ESRI geodatabase), vegetation classification data (CDFW).
+
+{% include ai-assist.html %}
 
 Project repository available on [GitHub](https://github.com/katiejohnsonsf/ecosystem-mapping).

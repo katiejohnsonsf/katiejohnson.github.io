@@ -8,6 +8,7 @@ date: 2024-11-15
 tags: environmental-data, climate, government
 image: /images/projects/climate-data-landscape-thumbnail.png
 thumbnail: /images/projects/climate-data-landscape-thumbnail.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "The federal government lacks a coherent environmental data framework—a shared understanding of what climate and ecological data exists, who needs it, and how it connects environmental conditions to the people and places affected. This project ran a structured landscape scan and stakeholder consultation across Census's Economic and Housing Statistics Division, the Environmental Impacts Frame initiative, and the interagency natural capital accounting effort, producing a stakeholder map and research questions designed to be picked up by whoever secures funding or an institutional home for the next phase."
 ---
 
@@ -56,3 +57,5 @@ The most important finding was institutional — the work that matters most, aro
 ### Stack & Methods
 
 Stakeholder interviews · landscape scan methodology · policy analysis (SEEA standards, natural capital accounts, community resilience estimates) · Census microdata · NOAA, FEMA flood records, remote sensing, and vegetation classification data · U.S. Census Bureau Emerging Technology (xD) Fellowship.
+
+{% include ai-assist.html %}

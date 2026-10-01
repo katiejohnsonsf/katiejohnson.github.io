@@ -18,6 +18,7 @@ tags: remote-sensing, machine-learning, housing-policy
 github: https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI
 image: /images/projects/wealth-index-estimation.png
 thumbnail: /images/projects/wealth-index-estimation.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "This project's central hypothesis is that housing displacement shows up in satellite imagery well before it shows up in survey data — by the time a five-year ACS estimate reflects a neighborhood's turnover, the building may have already sold, been redeveloped, and the households who lived there may have already moved. This project designs a redevelopment exposure layer for the Census Community Resilience Estimates: instead of inferring income from imagery, it detects construction, demolition, and land-use conversion directly from Landsat and Sentinel-2, trained on parcel-level permit and assessor records, and deliberately extends detection into jurisdictions with the weakest record-keeping. It builds directly on a completed geo-temporal wealth-estimation pipeline (Rhode Island proof of concept, R² 0.120) whose infrastructure carries over even though its income-prediction target didn't, and treats disclosure avoidance as a design problem to solve before release rather than a compliance check after it."
 ---
 
@@ -182,5 +183,7 @@ None of this removes dual use. A layer good enough to help a CDC acquire ahead o
 ### Stack & Methods
 
 Python (TensorFlow, pandas, numpy, ee) · Google Earth Engine (Landsat, Sentinel-2, VIIRS nightlights) · dual-branch ResNet-18 + bidirectional LSTM (backbone adapted from Pettersson et al., IJCAI 2023) · parcel-level permit and assessor records (RIGIS, municipal open data) · HUD LIHTC and project-based Section 8 contract databases · Census Community Resilience Estimates · out-of-county and out-of-time cross-validation · AUC-PR and count deviance · xD / Data & Society disclosure pre-mortem · Rhode Island proof of concept
+
+{% include ai-assist.html %}
 
 Project repository available on [GitHub](https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI).

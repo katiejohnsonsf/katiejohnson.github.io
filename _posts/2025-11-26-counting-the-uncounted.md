@@ -8,6 +8,7 @@ date: 2025-11-26
 tags: privacy, public-health, government
 image: /images/projects/counting-uncounted-who-the-ssn-drops.png
 thumbnail: /images/projects/counting-uncounted-who-the-ssn-drops.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "Public health research depends on linking people across datasets—connecting someone's record to their Census responses to see how neighborhood conditions shape chronic disease—but the infrastructure to do this safely doesn't exist at scale, and the identifiers most linkage methods rely on are least available for the unhoused, low-income, and undocumented people the research is meant to serve. This project piloted VaultDB, a secure multiparty computation tool that lets the Census Bureau and Northwestern's ORION network compute across ACS and EHR data without either side exposing its records, and recommended moving from probabilistic matching with human review to a deterministic or hybrid method that avoids disclosing patient identity. The technical path proved tractable; the harder finding was that governance—an honest broker defensible under both Title 13 and HIPAA, a privacy review of externally-assigned identifiers, and community health advocates at the table—is the real unfinished work."
 ---
 
@@ -58,3 +59,5 @@ The next phase needs a formal privacy review of externally-assigned PIKs, data-s
 ### Stack & Methods
 
 VaultDB (Secure Multiparty Computation) · privacy-preserving record linkage · honest-broker evaluation (Linkja, Datavant) · deterministic and hybrid matching methods · Census ACS data · Northwestern ORION electronic health records · Title 13 / HIPAA compliance · U.S. Census Bureau Emerging Technology (xD) Fellowship · eHealth and Northwestern University CAPriCORN network.
+
+{% include ai-assist.html %}

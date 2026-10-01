@@ -53,6 +53,12 @@ I notice when I'm doing the "bridging" work — translating between people, doma
 
 ---
 
+### AI Use
+
+I use Claude (Anthropic) as a writing and coding assistant. Claude helped draft and edit the project descriptions on this site, wrote code for the site itself, and assisted with code in my project repositories. Research questions, study design, data collection, analysis decisions, and findings are my own or my collaborators', as credited on each project. I review and edit all AI-assisted content and take responsibility for its accuracy.
+
+---
+
 ### Get in Touch
 
 - GitHub: [katiejohnsonsf](https://github.com/katiejohnsonsf)

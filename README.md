@@ -62,5 +62,13 @@ My headshot and any photographs or third-party images are excluded from the
 content license. See `LICENSE-CONTENT` for the full terms, including a note
 on project write-ups that describe work performed as a U.S. federal employee.
 
+AI assistance
+=============
+This site's code (Jekyll templates, layouts, includes, and stylesheets) was
+developed with Claude (Anthropic) as a coding assistant. Project page content
+also notes where Claude assisted with drafting/editing — see each page's
+Stack & Methods section, or the About page's AI Use section for the full
+disclosure.
+
 [poole_repo]: https://github.com/poole/poole "Poole repository on GitHub"
 [jl_poole]: http://joshualande.com/jekyll-github-pages-poole/ "Joshua Lande's blog post on Jekyll with Poole"

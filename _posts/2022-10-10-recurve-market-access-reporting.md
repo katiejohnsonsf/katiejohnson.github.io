@@ -7,6 +7,7 @@ date: 2022-10-10
 tags: energy, government, data-engineering
 image: /images/projects/recurve-duck-curve-peak-reduction.png
 thumbnail: /images/projects/recurve-duck-curve-peak-reduction.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "The California Public Utilities Commission oversees $150 million in Market Access program funding meant to accelerate the shift to a clean-energy economy through utility-run, demand-side programs—but funding was allocated using estimated savings rather than verified results, risking both ratepayer accountability and the low-income and hard-to-reach households the programs were meant to serve. This project built a configurable Market Access reporting pipeline that measures outcomes directly from meter data, developed through weekly collaboration with business stakeholders as CPUC requirements evolved. A dbt/LaTeX/Looker abstraction layer made the pipeline portable across utility clients with different datasets, cutting new-client deployment effort 30x, while anonymized building attribute data let energy efficiency companies evaluate performance across jurisdictions without exposing personal information."
 ---
 
@@ -58,3 +59,5 @@ The key impact is a commitment to using taxpayer money in a way that holds clean
 ### Stack & Methods
 
 SQL (BigQuery) · Looker · dbt · LaTeX · Python (pandas) · BigQuery ML · Google Cloud Storage · Guru (documentation) · stakeholder facilitation and project scoping · CPUC Market Access reporting requirements.
+
+{% include ai-assist.html %}

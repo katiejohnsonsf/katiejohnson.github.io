@@ -8,6 +8,7 @@ date: 2024-12-15
 tags: responsible-ai, government, survey-research
 image: /images/projects/midas-the-empty-column.png
 thumbnail: /images/projects/midas-the-empty-column.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "Algorithmic systems make consequential decisions about people at scale—screening job applicants, setting credit eligibility, allocating housing and benefits—but the government has no systematic, nationally representative picture of where AI is deployed, how people experience it, or whether those affected even know it's happening. This project helped design measurement infrastructure from two directions: Household Trends and Outlook Pulse Survey (HTOPS) questions that ask about behaviors first rather than gating respondents on AI literacy, and an analysis framework that reframes the driving question from how many people use AI to where AI compounds privacy violations, who is screened without being told, and how exposure differs by race, income, and geography."
 ---
 
@@ -56,3 +57,5 @@ AI-use questions fielded on the Census Bureau's March 2026 Household Trends and 
 ### Stack & Methods
 
 Household Trends and Outlook Pulse Survey (HTOPS) instrument design · behavior-first question framing · analysis framework design · algorithmic impact measurement · U.S. Census Bureau Emerging Technology (xD) Fellowship.
+
+{% include ai-assist.html %}

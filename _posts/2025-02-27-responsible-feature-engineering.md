@@ -9,6 +9,7 @@ date: 2025-02-27
 tags: fairness, machine-learning, responsible-ai
 image: /images/projects/responsible-feature-engineering-intervention-point.png
 thumbnail: /images/projects/responsible-feature-engineering-intervention-point.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "Most AI fairness interventions occur after model development, through output audits that address harms only after they've affected people—but by the time a model generates predictions, the decisions about data inclusion and feature selection that embedded the bias have already been finalized. This project, with Atul Rawal, developed Responsible Feature Engineering (RFE), a model-agnostic framework that evaluates whether a feature's influence varies across the demographic groups a model affects, surfacing proxy variables like latitude and longitude (which stand in for race via residential segregation) before they reach training. RFE doesn't automate the resulting judgment call—it makes an implicit, often invisible decision explicit and puts it in front of domain experts and affected communities."
 ---
 
@@ -61,3 +62,5 @@ For RFE to become standard practice, it needs pipeline tooling at the feature se
 ### Stack & Methods
 
 Feature influence testing across demographic groups · model-agnostic fairness framework · proxy variable analysis · U.S. Census Bureau Emerging Technology (xD) Fellowship · co-authored with Atul Rawal.
+
+{% include ai-assist.html %}

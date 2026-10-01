@@ -9,6 +9,7 @@ date: 2025-07-28
 tags: responsible-ai, government, policy
 image: /images/projects/responsible-ai-data-lifecycle.png
 thumbnail: /images/projects/responsible-ai-data-lifecycle.png
+ai_assist: "Claude (Anthropic) for drafting/editing this description and for code."
 description: "Responsible AI is guided by principles in policy documents, NIST frameworks, and Executive Orders, but a persistent gap separates those principles from daily practice—visible in decisions like disclosure avoidance under deadline pressure, imputation choices for small datasets, and feature engineering that doesn't fully account for bias. This project conducted qualitative research with practitioners at eight federal statistical agencies, tracing where responsible AI principles break down at each stage of the data lifecycle—from raw data through deployment—and translating those findings into practitioner-focused recommendations: a policy navigator, shared evaluation rubrics with bias thresholds, community and domain-expert review, tiered model governance, and post-deployment feedback loops."
 ---
 
@@ -57,3 +58,5 @@ The central argument is that closing the gap between principles and practice req
 ### Stack & Methods
 
 Qualitative research · semi-structured practitioner interviews across eight federal statistical agencies · data lifecycle framework · federal responsible AI principles (transparency, accountability, fairness, explainability, respect for persons, beneficence) · NIST AI frameworks · policy analysis · U.S. Census Bureau Emerging Technology (xD) Fellowship.
+
+{% include ai-assist.html %}
