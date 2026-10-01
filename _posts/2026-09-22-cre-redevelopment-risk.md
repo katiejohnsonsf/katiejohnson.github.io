@@ -3,6 +3,15 @@ layout: post
 title: "CRE for Redevelopment Risk: An Earth Observation Exposure Layer"
 subtitle: "An Earth observation exposure layer for the Community Resilience Estimates"
 collab: "Next-phase design, building on the geo-temporal wealth estimation pipeline (Rhode Island proof of concept)"
+team:
+  - name: "Joey Marshall"
+    affiliation: "U.S. Census Bureau, SEHSD"
+    credit: ["Software", "Methodology"]
+    description: "Built the R pipelines for ACS data intake and dasymetric downscaling."
+  - name: "Katie Johnson"
+    credit: ["Conceptualization", "Software", "Formal analysis", "Writing – original draft"]
+    description: "Adapted the pipelines to process multiple ACS vintages; designed and built the geo-temporal model; designed the redevelopment exposure layer."
+acknowledgment: "The Rhode Island proof of concept was developed in collaboration with Joey Marshall and Adel Daoud from the AI & Global Development Lab."
 date: 2026-09-22
 tags: remote-sensing, machine-learning, housing-policy
 github: https://github.com/katiejohnsonsf/geo-temporal-wealth-estimation-RI
@@ -14,6 +23,8 @@ description: "Housing displacement shows up in satellite imagery eighteen months
 ![Median Household Income by Block Group and Dasymetric Downscaled Median HH Income, Rhode Island](/images/projects/wealth-index-estimation.png)
 
 **An Earth observation exposure layer for the Community Resilience Estimates**
+
+{% include team.html %}
 
 *Next-phase design, building on the geo-temporal wealth estimation pipeline (Rhode Island proof of concept)*
 

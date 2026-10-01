@@ -448,6 +448,85 @@ $border:          #e5dcd4;
   margin: 0;
 }
 
+// Collaborator block (team: front matter, rendered on project posts)
+.team-block {
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid $border;
+  border-radius: 4px;
+  background: rgba(201, 91, 43, 0.04);
+}
+
+.team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member {
+  margin-bottom: 0.9rem;
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.team-member-name {
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: $text-primary;
+}
+
+.team-member-affiliation {
+  font-weight: 400;
+  color: $text-secondary;
+}
+
+.team-member-credit {
+  margin: 0 0 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.credit-tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $accent;
+  border: 1px solid $accent;
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+}
+
+.team-member-description {
+  margin: 0;
+  font-size: 0.88rem;
+  color: $text-secondary;
+  line-height: 1.55;
+}
+
+.team-acknowledgment {
+  margin: 0.9rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid $border;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: $text-secondary;
+}
+
+.team-publication {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  color: $text-secondary;
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
 // Responsive
 @media (max-width: 640px) {
   .about-profile {

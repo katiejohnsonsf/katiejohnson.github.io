@@ -1,0 +1,19 @@
+{% if page.team %}
+<div class="team-block">
+  <ul class="team-list">
+    {% for member in page.team %}
+    <li class="team-member">
+      <p class="team-member-name">{{ member.name }}{% if member.affiliation %} <span class="team-member-affiliation">— {{ member.affiliation }}</span>{% endif %}</p>
+      {% if member.credit %}
+      <p class="team-member-credit">
+        {% for role in member.credit %}<span class="credit-tag">{{ role }}</span>{% endfor %}
+      </p>
+      {% endif %}
+      {% if member.description %}<p class="team-member-description">{{ member.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% if page.acknowledgment %}<p class="team-acknowledgment">{{ page.acknowledgment }}</p>{% endif %}
+  {% if page.related_publication %}<p class="team-publication">Related publication: <a href="{{ page.related_publication.url }}">{{ page.related_publication.citation }}</a></p>{% endif %}
+</div>
+{% endif %}
