@@ -1,0 +1,19 @@
+{% if page.ethics or page.data_availability or page.limitations %}
+
+<hr />
+
+<h3>Ethics, Data &amp; Limitations</h3>
+
+{% if page.ethics %}
+<h4>Ethics</h4>
+{{ page.ethics | markdownify }}
+{% endif %}
+{% if page.data_availability %}
+<h4>Data Availability</h4>
+{{ page.data_availability | markdownify }}
+{% endif %}
+{% if page.limitations %}
+<h4>Limitations</h4>
+{{ page.limitations | markdownify }}
+{% endif %}
+{% endif %}

@@ -8,6 +8,8 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
 
+  {% include ethics-data-limitations.html %}
+
   {% if page.census_disclaimer %}
   <div class="disclaimer-callout">
     <p>This work was conducted as a U.S. Census Bureau Emerging Technology (xD) Fellow (July 2024 – November 2025). Views expressed are my own and do not represent the U.S. Census Bureau.</p>
